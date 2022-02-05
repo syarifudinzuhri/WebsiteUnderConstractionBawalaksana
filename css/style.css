@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Slab');
 
 *{
     margin: 0px;
     padding: 0px;
 }
 
-body{
-    font-family: 'Exo', sans-serif;
-}
+#body{
+#    font-family: 'Exo', sans-serif;
+#}
 
 
 .context {
@@ -21,6 +22,22 @@ body{
     text-align: center;
     color: #fff;
     font-size: 50px;
+    font-family: 'Exo', sans-serif;
+}
+
+.context h3{
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.message {
+  display: inline-block;
+  line-height: 1.2;
+  transition: line-height .2s, width .2s;
+  overflow: hidden;
 }
 
 .area{
